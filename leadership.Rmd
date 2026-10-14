@@ -1,0 +1,13 @@
+---
+output:
+  html_document:
+    theme: null
+    toc: false
+    self_contained: false
+    css: style.css
+    includes:
+      before_body: _includes/leadership-before.html
+      after_body: _includes/leadership-after.html
+---
+
+<div class="page-heading"><div class="eyebrow">Academic service</div><h1>Responsabilités & gouvernance</h1></div><section class="section"><h2>Mandats et responsabilités</h2><div class="entry"><div class="meta">2025–présent</div><h3>Conseil d’administration de la Fondation Dauphine · membre élue</h3><p></p></div><div class="entry"><div class="meta">2025–présent</div><h3>House of Finance · membre du conseil / steering committee</h3><p></p></div><div class="entry"><div class="meta">2024–présent</div><h3>Conseil d’administration de l’Université Paris Dauphine–PSL · membre élue</h3><p></p></div><div class="entry"><div class="meta">2024–présent</div><h3>Commission financière de Dauphine</h3><p></p></div><div class="entry"><div class="meta">2025–présent</div><h3>Commission disciplinaire des usagers · désignée par tirage au sort parmi les membres éligibles élus au CA</h3><p></p></div><div class="entry"><div class="meta">2025–2026</div><h3>Commission RIPEC · élue par le conseil académique en formation restreinte (CAFR)</h3><p></p></div><div class="entry"><div class="meta">2021–présent</div><h3>Direction du Master 2 Ingénierie Statistique et Financière (ISF)</h3><p></p></div></section><section class="section"><h2>Mandats passés</h2><div class="entry"><div class="meta">2022–2025</div><h3>Conseil du département LSO · membre élue</h3><p></p></div><div class="entry"><div class="meta">2012–2016</div><h3>Conseil du laboratoire CEREMADE</h3><p></p></div><div class="entry"><div class="meta">2009–2016</div><h3>Conseil du département MIDO</h3><p></p></div></section><section class="section"><h2>Vie scientifique</h2><ul><li>Coorganisation de la conférence internationale <a href="https://sites.google.com/view/workshop-statsml/">New Trends in Statistical Learning</a> depuis 2021 (sept éditions / pages réunies sur le site de la conférence).</li><li>Coorganisation de <em>Meeting in Mathematical Statistics</em> (2015).</li><li>Exposé à Porquerolles (2025) et présentation scientifique sur CoHiRF à l’Institut Henri Poincaré (IHP).</li><li>Participation à des jurys de thèse, commissions d’évaluation et activités d’expertise scientifique.</li><li>Présentations introductives à l’intelligence artificielle pour les chercheurs et doctorants du CEREMADE.</li></ul></section>

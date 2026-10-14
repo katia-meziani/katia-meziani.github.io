@@ -1,0 +1,13 @@
+---
+output:
+  html_document:
+    theme: null
+    toc: false
+    self_contained: false
+    css: style.css
+    includes:
+      before_body: _includes/supervision-en-before.html
+      after_body: _includes/supervision-en-after.html
+---
+
+<div class="page-heading"><div class="eyebrow">Research training</div><h1>PhD supervision</h1><p class="lede">Seven co-supervised PhD projects in statistics, learning and industry-facing research.</p></div><section class="section" id=""><h2>Ongoing PhDs</h2><div class="entry"><div class="meta">2026– ongoing</div><h3>Axelle Méric</h3><p>Stable and Reproducible Change-Point Detection in Time Series through Multi-Scale and Consensus-Based Methods</p><p>Dauphine–PSL · Madalina Olteanu &amp; Rebecca Killick · academic PhD</p></div><div class="entry"><div class="meta">2026– ongoing</div><h3>Yassine Ghariani</h3><p>Modeling Non-Stationary Time Series in Energy Markets: Operator Learning and Conditional Density Estimation</p><p>Dauphine–PSL / ENGIE · Madalina Olteanu · CIFRE</p></div><div class="entry"><div class="meta">2026– ongoing</div><h3>Léo Saci</h3><p>Guided Clustering of Irregular and Heterogeneous Multivariate Time Series for Unsupervised System Alignment and Latent Event Recovery</p><p>Dauphine–PSL / Murex · Madalina Olteanu · CIFRE</p></div><div class="entry"><div class="meta">2023– ongoing</div><h3>Aminata Ndiaye</h3><p>Conditional Density Estimation and Counterfactual Inference</p><p>Dauphine–PSL / Renault · Madalina Olteanu · CIFRE</p></div></section><section class="section" id=""><h2>Completed PhDs</h2><div class="entry"><div class="meta">1 avril 2026 / 1 April 2026</div><h3>Bruno Belucci Teixeira</h3><p>Learning from Tabular Data: Structural Regularization, from Small-Sample Neural Networks to High-Dimensional Clustering</p><p>Dauphine–PSL / BNP Paribas · Karim Lounici · CIFRE</p></div><div class="entry"><div class="meta">27 février 2025 / 27 February 2025</div><h3>Grégoire Pacreau</h3><p>Operator Learning for Recommender Systems and Uncertainty Quantification</p><p>École polytechnique / Institut Polytechnique de Paris · Karim Lounici</p></div><div class="entry"><div class="meta">13 septembre 2022 / 13 September 2022</div><h3>Benjamin Riu</h3><p>Comparing Joint and Marginal Distributions through Label Permutations for Regression and Conditional Density Estimation</p><p>École polytechnique / Institut Polytechnique de Paris · Karim Lounici</p></div></section><p>Ongoing thesis titles reflect the ANR dossier wording and may be updated to match final registered titles.</p>

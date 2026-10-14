@@ -1,0 +1,13 @@
+---
+output:
+  html_document:
+    theme: null
+    toc: false
+    self_contained: false
+    css: style.css
+    includes:
+      before_body: _includes/experience-before.html
+      after_body: _includes/experience-after.html
+---
+
+<div class="page-heading"><div class="eyebrow">Academic trajectory</div><h1>Parcours &amp; expérience</h1></div><div class="experience-layout"><div class="experience-primary"><section class="section" id=""><h2>Postes et séjours</h2><div class="timeline"><p><strong>2019–2023</strong> — Chargée d’enseignement / PCC · École polytechnique, CMAP</p><p><strong>Sept.–oct. 2015</strong> — Chercheuse invitée · Georgia Institute of Technology, Atlanta</p><p><strong>2009–aujourd’hui</strong> — Maîtresse de conférences en mathématiques appliquées · Université Paris Dauphine–PSL, CEREMADE (CNRS UMR 7534)</p><p><strong>2008–2009</strong> — ATER · Université Paris Diderot, LPMA</p></div></section><section class="section" id=""><h2>Formation universitaire</h2><div class="timeline"><p><strong>2008</strong> — Doctorat en statistique · Université Paris Diderot</p><p><strong>2005</strong> — Master 2 recherche, modélisation stochastique et statistique · Université Paris Diderot</p><p><strong>2004</strong> — Maîtrise de mathématiques appliquées · Université Pierre-et-Marie-Curie</p></div></section><section class="section" id=""><h2>Biographie</h2><p>Mes recherches ont débuté par la statistique non paramétrique, les problèmes inverses et la tomographie quantique. Elles se sont progressivement élargies à la généralisation des réseaux de neurones, aux méthodes contrastives, au clustering et à l’apprentissage distribué robuste. Mon activité articule recherche fondamentale, encadrement doctoral, enseignement et collaborations avec des partenaires institutionnels et industriels.</p><img alt="Kabylie" class="kabylie" src="kabylie.jpg" style="max-width:600px"/><div class="caption">Kabylie · photographie personnelle</div><p>Mes travaux actuels incluent l’inférence causale et contrefactuelle. Je développe également des recherches en apprentissage adversarial : attaques, défenses, vérification de la propriété des données et efficacité des méthodes d’apprentissage.</p></section></div><aside class="contact-card" aria-label="Contact"><div class="eyebrow">CEREMADE · DAUPHINE–PSL</div><h2>Contact</h2><div class="contact-label">Courriel</div><p class="contact-email">meziani[arobase]ceremade[dot]dauphine[dot]fr</p><div class="contact-label">Adresse professionnelle</div><address>Laboratoire CEREMADE<br>Université Paris Dauphine–PSL<br>Place du Maréchal de Lattre de Tassigny<br>75016 Paris<br>France</address></aside></div>

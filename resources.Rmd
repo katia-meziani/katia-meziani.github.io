@@ -1,0 +1,13 @@
+---
+output:
+  html_document:
+    theme: null
+    toc: false
+    self_contained: false
+    css: style.css
+    includes:
+      before_body: _includes/resources-before.html
+      after_body: _includes/resources-after.html
+---
+
+<div class="page-heading"><div class="eyebrow">Open resources</div><h1>Ressources &amp; diffusion</h1><p class="lede">Supports pédagogiques, vulgarisation et écrits publics.</p></div><section class="section" id=""><h2>Introduction à l’intelligence artificielle</h2><p>Un petit guide en français préparé à la suite de deux présentations introductives destinées aux chercheurs et doctorants du CEREMADE. Il s’agit d’un support de diffusion, distinct d’un article scientifique évalué.</p><p><a href="guide-ia-ceremade.html" rel="noopener" target="_blank">Ouvrir le petit guide IA ↗</a></p></section><section class="section" id=""><h2>Dauphine Éclairages</h2><p><a href="https://dauphine.psl.eu/eclairages/article/former-a-lia-en-finance-luniversite-ne-peut-pas-faire-seule">Former à l’IA en finance : l’Université ne peut pas faire seule ↗</a></p></section>

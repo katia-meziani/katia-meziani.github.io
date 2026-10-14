@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+<title>research-en.knit</title>
+
+<script src="research-en_files/header-attrs-2.29/header-attrs.js"></script>
+<link href="research-en_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="research-en_files/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+
+</head>
+
+<body>
+
+
+<header><nav class="nav"><a class="brand" href="index-en.html">KATIA MEZIANI</a><div class="links"><a class="" href="index-en.html">Home</a><a class="active" href="research-en.html">Research</a><a class="" href="publications-en.html">Publications</a><a class="" href="experience-en.html">Experience</a><a class="" href="teaching-en.html">Teaching</a><a class="" href="supervision-en.html">PhD supervision</a><a class="" href="leadership-en.html">Leadership</a><a class="" href="impact-en.html">Projects & collaborations</a><a class="" href="resources-en.html">Resources</a><a class="" href="notes-en.html">Notebook</a></div><a class="lang" href="research.html">FR ↗</a></nav></header><main>
+
+
+
+
+
+<div class="page-heading">
+<div class="eyebrow">
+Research programme
+</div>
+<h1>
+Research
+</h1>
+<p class="lede">
+Statistical methods for learning, inference and decisions with complex
+data.
+</p>
+<p>
+My research develops and analyzes statistical learning methods:
+estimating difficult objects, learning from high-dimensional data,
+controlling generalization, combining decentralized information and
+remaining reliable under noise or adversarial behavior. It connects
+statistical estimation theory and inverse problems with contrastive
+learning, clustering and robustness.
+</p>
+</div>
+<section class="section" id="axis-1">
+<h2>
+High-dimensional clustering and consensus
+</h2>
+<h3>
+CoHiRF — hierarchical consensus, stability and interpretability
+</h3>
+<p>
+CoHiRF builds repeated partitions on randomly selected feature subspaces
+and consolidates them through consensus. Rather than relying on one
+potentially unstable partition, it combines complementary local views
+into a hierarchical clustering representation. Medoids and the fusion
+hierarchy make successive merges inspectable. The method is designed for
+high-dimensional and large-scale data and can work with different
+underlying clustering procedures. Numerical studies investigate noise
+robustness, stability and scalability. <strong>Manuscript submitted in
+2026.</strong>
+</p>
+<h3>
+VertCoHiRF — decentralized vertical federated clustering
+</h3>
+<p>
+Vertical federated learning involves agents holding different features
+or modalities for the same observations. VertCoHiRF combines locally
+generated partitions without centralizing raw features: agents exchange
+observation identifiers and cluster labels. It accommodates
+heterogeneous local methods and objectives and investigates Byzantine
+robustness, communication requirements and consensus formation.
+<strong>Manuscript submitted in 2026.</strong> A further extension for
+very large sample sizes has been developed separately and is not yet
+submitted.
+</p>
+</section>
+<section class="section" id="axis-2">
+<h2>
+Contrastive learning, conditional densities and causal inference
+</h2>
+<h3>
+MCD — Marginal Contrastive Discrimination
+</h3>
+<p>
+MCD turns conditional density estimation into discrimination between the
+joint distribution and the product of its marginals. A contrastive
+classifier provides an estimate of a density ratio, from which the
+conditional density can be recovered. Our work studies the statistical
+theory linking classification risk to density-estimation error, as well
+as practical implementations based on mixing and shuffling observations.
+A central motivation is to handle high-dimensional covariates without
+directly estimating a high-dimensional joint density. Ongoing
+experiments assess predictive accuracy across architectures and
+data-generating models. An extension to multivariate target variables is
+under development. <strong>Methodological and theoretical manuscript in
+preparation.</strong>
+</p>
+<h3>
+Counterfactual densities and causal inference
+</h3>
+<p>
+The MCD framework also motivates the estimation of counterfactual
+outcome distributions, beyond average treatment effects. Estimating full
+distributions helps characterize heterogeneous effects, uncertainty and
+tail behavior under different interventions or policies. A first
+contribution with Aminata Ndiaye and Madalina Olteanu appeared at
+<strong>ESANN 2026</strong>; further methodological and theoretical
+developments are ongoing.
+</p>
+</section>
+<section class="section" id="axis-3">
+<h2>
+Neural network generalization and small-data learning
+</h2>
+<h3>
+AdaCap — adaptive capacity control
+</h3>
+<p>
+AdaCap studies how to train neural networks on small tabular datasets
+while controlling overfitting. It combines permutation-based contrastive
+regularization with a Tikhonov-regularized output layer admitting a
+closed-form solution. The goal is to adjust effective model capacity to
+available information. The method was presented at <strong>ESANN
+2026</strong> and evaluated across a broad set of regression datasets.
+</p>
+<h3>
+MLR — Muddling Labels for Regularization
+</h3>
+<p>
+MLR uses perturbed or shuffled labels to inform regularization. Beyond
+the practical loss, the research addresses the relationship between
+network capacity, generalization and statistical regularization. A
+separate theoretical paper is being developed and should not be counted
+as an additional published AdaCap article.
+</p>
+</section>
+<section class="section" id="axis-4">
+<h2>
+Robust, adversarial and distributed learning
+</h2>
+<h3>
+Learning under adversarial agents
+</h3>
+<p>
+A developing research direction studies the trade-offs between Byzantine
+resilience, computational efficiency and data or model ownership
+verification. Topics include robust aggregation in distributed learning,
+reproducibility of empirical robustness claims and statistical
+guarantees under adversarial behavior. A PhD co-supervision on these
+topics is being prepared; the project is not presented as an active
+enrolled doctorate.
+</p>
+</section>
+<section class="section" id="axis-5">
+<h2>
+Mathematical statistics, inverse problems and quantum information
+</h2>
+<h3>
+Quantum tomography and nonparametric inference
+</h3>
+<p>
+My earlier research addresses statistical reconstruction of quantum
+states from indirect, noisy measurements, especially homodyne
+tomography. Contributions include adaptive Wigner-function and
+density-matrix estimation, nonparametric testing, quadratic functional
+estimation and minimax analysis. These problems combine ill-posed
+inverse operators, regularization and precise risk bounds. The results
+appeared in <em>Annals of Statistics</em>, <em>Inverse Problems</em>,
+<em>Physical Review A</em> and <em>Electronic Journal of
+Statistics</em>. This background in inverse problems and statistical
+inference also informs future questions in quantum information and
+computation; no unpublished quantum-computing result is claimed.
+</p>
+</section>
+
+</main><footer class="foot">Katia Meziani · CEREMADE · Université Paris Dauphine–PSL · meziani[arobase]ceremade[dot]dauphine[dot]fr</footer>
+
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+---
+output:
+  html_document:
+    theme: null
+    toc: false
+    self_contained: false
+    css: style.css
+    includes:
+      before_body: _includes/resources-en-before.html
+      after_body: _includes/resources-en-after.html
+---
+
+<div class="page-heading"><div class="eyebrow">Open resources</div><h1>Resources &amp; outreach</h1><p class="lede">Teaching materials, accessible introductions and public writing.</p></div><section class="section" id=""><h2>Introduction to artificial intelligence</h2><p>A French-language introductory guide developed after two presentations for CEREMADE researchers and doctoral students. It is an outreach resource, not a peer-reviewed research article.</p><p><a href="guide-ia-ceremade.html" rel="noopener" target="_blank">Open the AI guide (French) ↗</a></p></section><section class="section" id=""><h2>Dauphine Éclairages</h2><p><a href="https://dauphine.psl.eu/eclairages/article/former-a-lia-en-finance-luniversite-ne-peut-pas-faire-seule">Former à l’IA en finance : l’Université ne peut pas faire seule ↗</a></p></section>

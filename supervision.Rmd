@@ -1,0 +1,13 @@
+---
+output:
+  html_document:
+    theme: null
+    toc: false
+    self_contained: false
+    css: style.css
+    includes:
+      before_body: _includes/supervision-before.html
+      after_body: _includes/supervision-after.html
+---
+
+<div class="page-heading"><div class="eyebrow">Research training</div><h1>Encadrement doctoral</h1><p class="lede">Sept doctorats coencadrés, en statistique, apprentissage et applications industrielles.</p></div><section class="section" id=""><h2>Thèses en cours</h2><div class="entry"><div class="meta">2026– en cours</div><h3>Axelle Méric</h3><p><em>Stable and Reproducible Change-Point Detection in Time Series through Multi-Scale and Consensus-Based Methods</em></p><p>Dauphine–PSL · Madalina Olteanu &amp; Rebecca Killick · thèse académique</p></div><div class="entry"><div class="meta">2026– en cours</div><h3>Yassine Ghariani</h3><p><em>Modeling Non-Stationary Time Series in Energy Markets: Operator Learning and Conditional Density Estimation</em></p><p>Dauphine–PSL / ENGIE · Madalina Olteanu · CIFRE</p></div><div class="entry"><div class="meta">2026– en cours</div><h3>Léo Saci</h3><p><em>Guided Clustering of Irregular and Heterogeneous Multivariate Time Series for Unsupervised System Alignment and Latent Event Recovery</em></p><p>Dauphine–PSL / Murex · Madalina Olteanu · CIFRE</p></div><div class="entry"><div class="meta">2023– en cours</div><h3>Aminata Ndiaye</h3><p><em>Conditional Density Estimation and Counterfactual Inference</em></p><p>Dauphine–PSL / Renault · Madalina Olteanu · CIFRE</p></div></section><section class="section" id=""><h2>Thèses soutenues</h2><div class="entry"><div class="meta">1 avril 2026 / 1 April 2026</div><h3>Bruno Belucci Teixeira</h3><p><em>Apprentissage sur données tabulaires : régularisation structurelle, des réseaux de neurones à petits échantillons au clustering en haute dimension</em></p><p>Dauphine–PSL / BNP Paribas · Karim Lounici · CIFRE</p></div><div class="entry"><div class="meta">27 février 2025 / 27 February 2025</div><h3>Grégoire Pacreau</h3><p><em>Operator Learning for Recommender Systems and Uncertainty Quantification</em></p><p>École polytechnique / Institut Polytechnique de Paris · Karim Lounici</p></div><div class="entry"><div class="meta">13 septembre 2022 / 13 September 2022</div><h3>Benjamin Riu</h3><p><em>Comparaison des lois conjointes et marginales par permutation des labels pour la régression et l’estimation de densité conditionnelle</em></p><p>École polytechnique / Institut Polytechnique de Paris · Karim Lounici</p></div></section><p><small>Les intitulés des thèses en cours reflètent les formulations du dossier ANR et pourront être ajustés aux titres définitifs déposés.</small></p>

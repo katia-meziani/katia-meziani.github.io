@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+<title>research.knit</title>
+
+<script src="research_files/header-attrs-2.29/header-attrs.js"></script>
+<link href="research_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="research_files/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+
+</head>
+
+<body>
+
+
+<header><nav class="nav"><a class="brand" href="index.html">KATIA MEZIANI</a><div class="links"><a class="" href="index.html">Accueil</a><a class="active" href="research.html">Recherche</a><a class="" href="publications.html">Publications</a><a class="" href="experience.html">Parcours</a><a class="" href="teaching.html">Enseignements</a><a class="" href="supervision.html">Doctorants</a><a class="" href="leadership.html">Responsabilités</a><a class="" href="impact.html">Projets & collaborations</a><a class="" href="resources.html">Ressources</a><a class="" href="notes.html">Carnet</a></div><a class="lang" href="research-en.html">EN ↗</a></nav></header><main>
+
+
+
+
+
+<div class="page-heading">
+<div class="eyebrow">
+Research programme
+</div>
+<h1>
+Recherche
+</h1>
+<p class="lede">
+Méthodes statistiques pour apprendre, estimer et décider à partir de
+données complexes.
+</p>
+<p>
+Mes recherches portent sur la conception et l’analyse de méthodes
+d’apprentissage statistique : comment estimer des objets difficiles,
+exploiter des données de grande dimension, contrôler la généralisation,
+agréger des informations distribuées et résister à des perturbations ou
+comportements adversariaux. Elles relient la théorie de l’estimation,
+les problèmes inverses, l’apprentissage contrastif, le clustering et la
+robustesse.
+</p>
+</div>
+<section class="section" id="axis-1">
+<h2>
+Clustering haute dimension et consensus
+</h2>
+<h3>
+CoHiRF — consensus hiérarchique, stabilité et interprétabilité
+</h3>
+<p>
+CoHiRF est une méthode de clustering construite autour de la répétition
+de partitions sur des sous-espaces aléatoires de variables, puis de leur
+consolidation par consensus. Le principe consiste à exploiter des
+informations locales, potentiellement instables prises séparément, pour
+construire progressivement une représentation robuste des groupes. La
+hiérarchie de fusion et les médoïdes permettent de suivre les
+regroupements et de rendre la solution interprétable. Le cadre est pensé
+pour les données de grande dimension et les effectifs importants, sans
+imposer un algorithme de clustering unique à chaque étape. Les études
+numériques portent notamment sur le bruit en grande dimension, la
+stabilité et la scalabilité. <strong>Manuscrit soumis en 2026.</strong>
+</p>
+<h3>
+VertCoHiRF — clustering fédéré vertical et décentralisé
+</h3>
+<p>
+Dans l’apprentissage fédéré vertical, plusieurs agents possèdent des
+caractéristiques différentes des mêmes individus : leurs vues peuvent
+être hétérogènes, et les données ne sont pas centralisées. VertCoHiRF
+exploite les partitions proposées localement pour construire un
+consensus global, en échangeant des identifiants d’observations et des
+étiquettes de clusters plutôt que les caractéristiques brutes. Le
+protocole vise à respecter l’autonomie des méthodes et des objectifs
+locaux, tout en étudiant la résistance à des agents byzantins. Les
+propriétés de communication, l’hétérogénéité et la robustesse
+constituent des enjeux théoriques centraux. <strong>Manuscrit soumis en
+2026</strong> ; une extension à de très grands effectifs a été
+développée séparément et n’est pas encore soumise.
+</p>
+</section>
+<section class="section" id="axis-2">
+<h2>
+Apprentissage contrastif, densités conditionnelles et causalité
+</h2>
+<h3>
+MCD — Marginal Contrastive Discrimination
+</h3>
+<p>
+MCD reformule l’estimation de la densité conditionnelle comme un
+problème de discrimination entre la loi jointe des variables et le
+produit de leurs marginales. La classification contrastive donne accès à
+un rapport de densités, à partir duquel la densité conditionnelle peut
+être reconstruite. Nous développons l’analyse statistique de cette
+construction, les liens entre risque de classification et erreur
+d’estimation, ainsi que des variantes pratiques fondées sur le mélange
+et la permutation des échantillons. L’objectif est de traiter des
+covariables de grande dimension sans recourir à une estimation directe
+de la loi jointe. Les expériences en cours comparent plusieurs
+architectures et modèles, et étudient les conditions de bonne
+généralisation. Une extension aux variables cibles multivariées est en
+développement. <strong>Manuscrit méthodologique et théorique en
+préparation.</strong>
+</p>
+<h3>
+Densités contrefactuelles et inférence causale
+</h3>
+<p>
+Dans le prolongement de MCD, nous étudions l’estimation de distributions
+contrefactuelles : il ne s’agit plus seulement de prédire une moyenne,
+mais de caractériser une distribution de résultats sous différentes
+interventions ou stratégies. Cela permet de poser des questions sur
+l’hétérogénéité des effets et les queues de distribution. Une première
+contribution a été publiée à <strong>ESANN 2026</strong> avec Aminata
+Ndiaye et Madalina Olteanu ; les prolongements méthodologiques et
+théoriques constituent un axe de recherche actif.
+</p>
+</section>
+<section class="section" id="axis-3">
+<h2>
+Généralisation des réseaux de neurones et petits échantillons
+</h2>
+<h3>
+AdaCap — contrôle adaptatif de la capacité
+</h3>
+<p>
+Comment entraîner des réseaux de neurones sur de petits jeux de données
+tabulaires sans surapprentissage ? AdaCap combine une construction
+contrastive inspirée de la permutation des labels et une couche de
+sortie régularisée de type Tikhonov, dont la solution peut être calculée
+explicitement. L’approche vise à adapter la capacité effective du modèle
+à l’information disponible. Le travail publié à <strong>ESANN
+2026</strong> étudie cette stratégie sur un large ensemble de jeux de
+données de régression.
+</p>
+<h3>
+MLR — Muddling Labels for Regularization
+</h3>
+<p>
+La perte MLR explore une régularisation fondée sur la comparaison entre
+les vraies étiquettes et des étiquettes perturbées ou permutées. Au-delà
+de l’algorithme, les questions portent sur les mécanismes de
+généralisation, le rôle de la capacité du réseau et la caractérisation
+théorique de la régularisation. Une étude théorique distincte est en
+cours de finalisation ; elle ne doit pas être confondue avec la
+publication AdaCap.
+</p>
+</section>
+<section class="section" id="axis-4">
+<h2>
+Apprentissage robuste, adversarial et distribué
+</h2>
+<h3>
+Apprentissage en présence d’agents adversariaux
+</h3>
+<p>
+Un nouvel axe concerne les compromis entre robustesse aux attaques,
+efficacité algorithmique et vérification de la propriété des données ou
+des modèles (data ownership verification). Les questions incluent
+l’apprentissage distribué résistant aux comportements byzantins, les
+agrégateurs robustes, les garanties statistiques et les limites de
+reproductibilité des expériences. Une codirection doctorale sur ces
+thèmes est en préparation ; elle n’est pas présentée comme une thèse
+déjà commencée.
+</p>
+</section>
+<section class="section" id="axis-5">
+<h2>
+Statistique mathématique, problèmes inverses et information quantique
+</h2>
+<h3>
+Tomographie quantique et estimation non paramétrique
+</h3>
+<p>
+Mes premiers travaux portent sur la reconstruction statistique d’états
+quantiques à partir de mesures indirectes et bruitées, notamment en
+tomographie homodyne. Ils étudient l’estimation adaptative de la
+fonction de Wigner et de la matrice de densité, les procédures de tests,
+l’estimation de fonctionnelles quadratiques et les bornes minimax. Le
+problème central est celui de l’inversion d’un opérateur d’observation
+sous bruit, avec contrôle rigoureux du risque statistique. Ces travaux
+ont donné lieu à des articles dans Annals of Statistics, Inverse
+Problems, Physical Review A et Electronic Journal of Statistics. Cette
+expertise en problèmes inverses et en théorie de l’estimation constitue
+aussi un point de départ pour de nouvelles questions liées à
+l’information et au calcul quantiques .
+</p>
+</section>
+
+</main><footer class="foot">Katia Meziani · CEREMADE · Université Paris Dauphine–PSL · meziani[arobase]ceremade[dot]dauphine[dot]fr</footer>
+
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
